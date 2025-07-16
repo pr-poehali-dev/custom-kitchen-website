@@ -79,11 +79,11 @@ const Index = () => {
             <p className="text-2xl text-white/90 mb-8 font-light">
               {slides[currentSlide].subtitle}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <Button size="lg" className="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-black font-semibold border-0 shadow-lg shadow-amber-500/30 px-8">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
+              <Button className="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-black font-semibold border-0 shadow-lg shadow-amber-500/30 px-12 py-4 text-xl">
                 Бесплатный замер
               </Button>
-              <Button size="lg" variant="outline" className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black bg-transparent backdrop-blur-sm font-semibold">
+              <Button variant="outline" className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black bg-transparent backdrop-blur-sm font-semibold px-12 py-4 text-xl">
                 Смотреть проекты
               </Button>
             </div>
